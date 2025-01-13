@@ -1,0 +1,403 @@
+body {
+    font-family: sans-serif;
+    background-color: rgba(190, 40, 183, 0.829);
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: rgb(231, 88, 236);
+    padding: 20px;
+    flex: auto;
+    height: 60px;
+    align-items: center;
+    z-index: 1;
+
+}
+
+header img {
+    height: 90%;
+    width: 90%;
+}
+
+.logo {
+    float: left;
+    width: 80px;
+}
+
+h1 {
+    background-color: #48036f;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+nav {
+    width: 70%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+    
+
+nav a {
+    opacity: 0, 5;
+    color: #48036f;
+    text-align: center;
+    padding: 14px 5%;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    position: relative;
+    top: 100px;
+    left: 0px;
+    z-index: 0;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+    left: 0px;
+    background-color: #48036f;
+    color: white;
+    font-size: 16px;
+    padding: 20px 0px 20px 10px;
+}
+
+
+
+
+
+
+
+.ka {
+    width: 600px;
+}
+
+.papapa {
+    color: black;
+    font-size: 25px;
+
+}
+
+.papapa:hover {
+    font-size: 30px;
+    transition: 0.3s;
+
+
+    /* }
+
+.Lq {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+
+.Lw {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+
+.Le {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+    
+
+.Lr {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+
+.Lt {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+
+.Ly {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+
+.Lu {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+
+.Lo {
+    width: 200px;
+    height: 200px;
+    opacity: 1;;
+}
+
+.Lp {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+
+.La {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+
+.Ls {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+
+.Ld {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+.Lf {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+
+.Lg {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+
+.Lh {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+
+.Lj {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+
+.Lk {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+}
+.Lq:hover {
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+
+.Lw:hover {
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+
+.Le:hover {
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+    
+
+.Lr:hover {
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+
+.Lt:hover {
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+
+.Ly:hover {
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+.Lu:hover{
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+
+.Li:hover{
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+.Lo:hover{
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+.Lp:hover{
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+
+.La:hover {
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+
+.Ls:hover {
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+
+.Ld:hover{
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+
+.Lf:hover {
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+
+.Lg:hover{
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+
+.Lh:hover{
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+
+.Lj:hover{
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1;
+}
+
+
+.Lk:hover{
+    transition: 1s;
+    width: 450px;
+    height: 500px;
+    opacity: 1; */
+}
+
+.history-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+.history-gallery img {
+    width: 200px;
+    height: 200px;
+    border: 5px dashed black;
+}
+
+.history-gallery div {
+
+    width: 300px;
+    height: 300px;
+}
+
+.pronas img {
+
+    width: 200px;
+    height: 200px;
+    border: 3px dotted black;
+}
+
+.coach {
+
+    font-size: 25px;
+
+}
+
+.coach:hover {
+    font-size: 30px;
+    transition: 0.5s;
+}
+.horoho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1200px; 
+}
+.horoho img{
+    width: 400px;
+    height: 300px;
+    border: 5px dotted black;
+
+}
+.nagorody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1200px; 
+
+
+}
+.nagorody img{
+    width: 25%; 
+    border: 5px dotted black;
+}
+nav a:hover{
+    color:#9f6ebbe1;
+    transition: 0.5s;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.container div{
+    width: 400px;
+}
+.trener {
+    text-align: center;
+    margin:0 auto ;
+    
+}
+.trener img{
+    width: 30%;
+    border: 5px dotted black;
+}
